@@ -116,7 +116,7 @@ public class Services {
 		catch (IOException e) {
 			e.printStackTrace();
 		}
-		return Response.status(200).entity("Inserted Successfully").build();
+		return Response.status(200).entity("Inserted Successfully ").build();
 	}
 	
 }
