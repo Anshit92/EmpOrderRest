@@ -199,7 +199,7 @@
 		</dependency>
 
 	</dependencies>
-	<build>
+<!-- 	<build>
 		<finalName>EmpOrderRest</finalName>
 		<plugins>
 			<plugin>
@@ -235,7 +235,7 @@
 										</artifact>
 									</artifacts>
 									<nameAndTag>anshit92/${project.artifactId}:${project.version}</nameAndTag>
-									<!-- <registry>registry.hub.docker.com</registry> -->
+									<registry>registry.hub.docker.com</registry>
 									<keep>true</keep>
 									<push>true</push>
 								</image>
@@ -273,16 +273,16 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-			<!-- Uncomment below plugin for SOAP UI tests -->
-			<!-- <plugin> <groupId>com.smartbear.soapui</groupId> <artifactId>soapui-maven-plugin</artifactId> 
+			Uncomment below plugin for SOAP UI tests
+			<plugin> <groupId>com.smartbear.soapui</groupId> <artifactId>soapui-maven-plugin</artifactId> 
 				<version>4.6.1</version> <executions> <execution> <id>QClearanceTest</id> 
 				<goals> <goal>test</goal> </goals> <phase>test</phase> </execution> </executions> 
 				<configuration> <projectFile>src/main/resources/test-workspace.xml</projectFile> 
 				<projectProperties> <value>message=Hello World!</value> </projectProperties> 
 				<outputFolder>${project.build.directory}/surefire-reports</outputFolder> 
-				</configuration> </plugin> -->
+				</configuration> </plugin>
 		</plugins>
 	</build>
-
+ -->
 
 </project>
