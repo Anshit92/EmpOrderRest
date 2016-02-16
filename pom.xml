@@ -199,16 +199,16 @@
 		</dependency>
 
 	</dependencies>
-<!-- 	<build>
+ 	<build>
 		<finalName>EmpOrderRest</finalName>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			<plugin>
 
 				<groupId>net.wouterdanes.docker</groupId>
@@ -273,16 +273,16 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-			Uncomment below plugin for SOAP UI tests
+			<!-- Uncomment below plugin for SOAP UI tests
 			<plugin> <groupId>com.smartbear.soapui</groupId> <artifactId>soapui-maven-plugin</artifactId> 
 				<version>4.6.1</version> <executions> <execution> <id>QClearanceTest</id> 
 				<goals> <goal>test</goal> </goals> <phase>test</phase> </execution> </executions> 
 				<configuration> <projectFile>src/main/resources/test-workspace.xml</projectFile> 
 				<projectProperties> <value>message=Hello World!</value> </projectProperties> 
 				<outputFolder>${project.build.directory}/surefire-reports</outputFolder> 
-				</configuration> </plugin>
+				</configuration> </plugin> -->
 		</plugins>
 	</build>
- -->
+
 
 </project>
